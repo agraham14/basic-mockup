@@ -10,6 +10,9 @@ body {
 	margin: 0;
 }
 
+header {
+	background-color: #1e90ff;
+}
 .container {
 	margin: 0 auto;
 	width: 1170px;
