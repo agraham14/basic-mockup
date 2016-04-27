@@ -12,11 +12,15 @@ body {
 div {
 	display: block;
 }
-
+header {
+	background: #00bfff;
+	padding-top: 5px;
+}
 
 h1 {
 	padding-left: 70px;
-	background-color: #00bfff;
+	color: #000000;
+
 }
 main p,h3 {
 	padding-left: 15px;
@@ -57,16 +61,18 @@ main p,h3 {
 	border: 15px;
 	border-color: #faebd7;
 	padding: 5px;
-}
 
+}
+.container{
+	margin-left: 75px;
+	margin-right: 75px;
+}
 footer div.container {
 	background-color: #000000;
 	color: #faebd7;
+	margin: auto;
+	width: 100%;
 
-}
-.container {
-	margin: 0 auto;
-	width: 1170px;
 }
 
 /***
