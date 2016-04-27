@@ -15,6 +15,7 @@ div {
 header {
 	background: #00bfff;
 	padding-top: 5px;
+	padding-left: 100px;
 	width: 1200px;
 }
 
@@ -25,15 +26,18 @@ h1 {
 }
 main div.container {
 	display: inline-block;
-	padding: 25px;
-	width: 100%;
+	padding-left: 75px;
+	padding-bottom: 25px;
+	padding-top: 25px;
+
+
 
 }
 .instructions {
-	margin-bottom: 25px;
 	border: solid;
-	/* border: 15px; */
 	border-color: #faebd7;
+	padding-left: 5px;
+	padding-right: 5px;
 
 }
 .clear {
@@ -48,6 +52,7 @@ main div.container {
 	clear: right;
 	margin-right: 25px;
 	border: 5px solid #faebd7;
+	margin-top: 25px;
 }
 
 .pull-right {
@@ -57,11 +62,7 @@ main div.container {
 img {
 	border:1px solid #000000;
 }
-.container{
-	display: inline-block;
-	padding: 25px;
-	margin-right: 25px;
-}
+
 footer div.container {
 	background-color: #000000;
 	color: #faebd7;
