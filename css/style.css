@@ -15,11 +15,8 @@ div {
 
 
 h1 {
-	margin-top: 20px;
-	padding-left: 45px;
-	padding-right: 45px;
-	margin-left: 75px;
-	margin-right: 75px;
+	padding-left: 70px;
+	background-color: #00bfff;
 }
 main p,h3 {
 	padding-left: 15px;
@@ -32,16 +29,24 @@ main p,h3 {
 	margin-left: 75px;
 	margin-right: 75px;
 	border: solid;
-	border: 15px;
+	/* border: 15px; */
 	border-color: #faebd7;
-	box-sizing: border-box;
+	box-sizing: border-box;;
 
 }
-
-.pull-left {
+.clear {
+	clear: both;
 	border: solid;
 	border-color: #faebd7;
-	box-sizing: border-box;
+	background-color: #00bfff;
+	margin-left: 75px;
+	margin-right: 75px;
+}
+.clear p,h2 {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.pull-left {
 	float: left;
 	margin-left: 75px;
 	padding: 15px;
@@ -58,18 +63,7 @@ main p,h3 {
 	margin: 0 auto;
 	width: 1170px;
 }
-.clear {
-	clear: both;
-	border: solid;
-	border-color: #faebd7;
-	background-color: #00bfff;
-	margin-left: 75px;
-	margin-right: 75px;
-}
-.clear p,h2 {
-	padding-left: 15px;
-	padding-right: 15px;
-}
+
 /***
 * Flexbox Sticky Footer
 * http://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
