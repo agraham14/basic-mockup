@@ -10,11 +10,12 @@ body {
 	margin: 0;
 }
 div {
-	display: block;
+	display: inline-block;
 }
 header {
 	background: #00bfff;
 	padding-top: 5px;
+	width: 1200px;
 }
 
 h1 {
@@ -25,17 +26,17 @@ h1 {
 main p,h3 {
 	padding-left: 15px;
 	padding-right: 15px;
-	margin-right: 75px;
-	margin-left: 75px;
+	margin-right: 45px;
+	margin-left: 45px;
 	border: 15px;
 }
 .instructions {
-	margin-left: 75px;
-	margin-right: 75px;
+	margin-left: 45px;
+	margin-right: 45px;
+	margin-bottom: 25px;
 	border: solid;
 	/* border: 15px; */
 	border-color: #faebd7;
-	box-sizing: border-box;;
 
 }
 .clear {
@@ -43,8 +44,8 @@ main p,h3 {
 	border: solid;
 	border-color: #faebd7;
 	background-color: #00bfff;
-	margin-left: 75px;
-	margin-right: 75px;
+	margin-left: 45px;
+	margin-right: 45px;
 }
 .clear p,h2 {
 	padding-left: 15px;
@@ -52,26 +53,29 @@ main p,h3 {
 }
 .pull-left {
 	float: left;
-	margin-left: 75px;
-	padding: 15px;
+	clear: right;
+	margin-left: 45px;
+	margin-right: 25px;
+	border: 5px solid #faebd7;
 }
+
 .pull-right {
 	float: right;
-	border: solid;
-	border: 15px;
-	border-color: #faebd7;
 	padding: 5px;
-
+}
+img {
+	border:1px solid #000000;
 }
 .container{
-	margin-left: 75px;
-	margin-right: 75px;
+	display: inline-block;
+	padding: 25px;
+	margin-left: 25px;
+	margin-right: 25px;
 }
 footer div.container {
 	background-color: #000000;
 	color: #faebd7;
-	margin: auto;
-	width: 100%;
+	width: 1200px;
 
 }
 
