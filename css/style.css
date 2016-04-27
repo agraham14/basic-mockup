@@ -23,16 +23,13 @@ h1 {
 	color: #000000;
 
 }
-main p,h3 {
-	padding-left: 15px;
-	padding-right: 15px;
-	margin-right: 45px;
-	margin-left: 45px;
-	border: 15px;
+main div.container {
+	display: inline-block;
+	padding: 25px;
+	width: 100%;
+
 }
 .instructions {
-	margin-left: 45px;
-	margin-right: 45px;
 	margin-bottom: 25px;
 	border: solid;
 	/* border: 15px; */
@@ -44,17 +41,11 @@ main p,h3 {
 	border: solid;
 	border-color: #faebd7;
 	background-color: #00bfff;
-	margin-left: 45px;
-	margin-right: 45px;
 }
-.clear p,h2 {
-	padding-left: 15px;
-	padding-right: 15px;
-}
+
 .pull-left {
 	float: left;
 	clear: right;
-	margin-left: 45px;
 	margin-right: 25px;
 	border: 5px solid #faebd7;
 }
@@ -69,7 +60,6 @@ img {
 .container{
 	display: inline-block;
 	padding: 25px;
-	margin-left: 25px;
 	margin-right: 25px;
 }
 footer div.container {
